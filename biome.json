@@ -25,7 +25,8 @@
 				"useSelfClosingElements": "warn"
 			},
 			"a11y": {
-				"noSvgWithoutTitle": "warn"
+				"noSvgWithoutTitle": "warn",
+				"useAltText": "off"
 			}
 		}
 	}
