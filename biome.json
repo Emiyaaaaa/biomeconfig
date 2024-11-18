@@ -1,5 +1,5 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.7.0/schema.json",
+	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
 	"formatter": {
 		"enabled": true,
 		"formatWithErrors": true
@@ -15,6 +15,9 @@
 		"rules": {
 			"correctness": {
 				"useExhaustiveDependencies": "warn"
+			},
+			"security": {
+				"noDangerouslySetInnerHtml": "off"
 			},
 			"suspicious": {
 				"noExplicitAny": "warn",
