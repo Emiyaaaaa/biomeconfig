@@ -1,14 +1,14 @@
 {
-	"name": "@emiyaaaaa/biomeconfig",
-	"version": "1.2.0",
-	"repository": "emiyaaaaa/biomeconfig",
-	"author": {
-		"name": "Haozheng Li",
-		"email": "emiya@emiya.com.cn",
-		"url": "https://emiya.com.cn"
-	},
+  "name": "@emiyaaaaa/biomeconfig",
+  "version": "1.3.0",
+  "repository": "emiyaaaaa/biomeconfig",
+  "author": {
+    "name": "Haozheng Li",
+    "email": "emiya@emiya.com.cn",
+    "url": "https://emiya.com.cn"
+  },
   "publishConfig": {
     "access": "public"
   },
-	"main": "biome.json"
+  "main": "biome.json"
 }

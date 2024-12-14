@@ -1,36 +1,37 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
-	"formatter": {
-		"enabled": true,
-		"formatWithErrors": true
-	},
-	"javascript": {
-		"formatter": {
-			"trailingComma": "none"
-		}
-	},
-	"linter": {
-		"ignore": ["./node_modules/**"],
-		"enabled": true,
-		"rules": {
-			"correctness": {
-				"useExhaustiveDependencies": "warn"
-			},
-			"security": {
-				"noDangerouslySetInnerHtml": "off"
-			},
-			"suspicious": {
-				"noExplicitAny": "warn",
-				"noArrayIndexKey": "off"
-			},
-			"style": {
-				"noNonNullAssertion": "warn",
-				"useSelfClosingElements": "warn"
-			},
-			"a11y": {
-				"noSvgWithoutTitle": "warn",
-				"useAltText": "off"
-			}
-		}
-	}
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "formatter": {
+    "enabled": true,
+    "formatWithErrors": true
+  },
+  "javascript": {
+    "formatter": {
+      "trailingComma": "none"
+    }
+  },
+  "linter": {
+    "ignore": ["./node_modules/**"],
+    "enabled": true,
+    "rules": {
+      "correctness": {
+        "useExhaustiveDependencies": "warn"
+      },
+      "security": {
+        "noDangerouslySetInnerHtml": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "warn",
+        "noArrayIndexKey": "off"
+      },
+      "style": {
+        "noNonNullAssertion": "warn",
+        "useSelfClosingElements": "warn"
+      },
+      "a11y": {
+        "noSvgWithoutTitle": "warn",
+        "useAltText": "off",
+        "noAutofocus": "off"
+      }
+    }
+  }
 }
